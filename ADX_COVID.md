@@ -5,9 +5,8 @@ The ADX for COVID profile is a content profile based on the Aggregate Data Excha
 
 ## Concepts
 
-<diagram>
-
-Figure 1: ADX actors and their roles
+![concepts](images/concepts.png)
+*Figure 1: ADX actors and their roles*
 
 The actors defined in the ADX specification, and their respective roles, are described in Figure 1. The ADX for COVID content specification represents an ADX-conformant Message Schema (highlighted in yellow in the figure). It is a computable representation of the weekly reportable indicators defined by the WHO for COVID case reporting.[ https://www.who.int/emergencies/diseases/novel-coronavirus-2019/technical-guidance/surveillance-and-case-definitions] This data reporting specification relies on the underlying case report specification, which has also been defined by WHO. For this content profile, WHO is the organization defining the reportable indicators and the QRPH committee is leveraging tooling (acting as a Content Data Structure Creator) to generate the ADX schema. [ In support of this work item, IHE has reached out to SNOMED International for assistance in mapping concepts defined in the WHO case report form. This content specification leverages the SNOMED codes recommended by them.]
 
