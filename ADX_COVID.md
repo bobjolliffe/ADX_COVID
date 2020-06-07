@@ -1,5 +1,5 @@
 % Volume-1 ADX for COVID
-% Bob Jolliffe; Derek Ritz
+% Bob Jolliffe; Derek Ritz; James Kariuki
 % 2020-06-07
 
 # Overview
@@ -23,5 +23,5 @@ A country’s Ministry of Health (MOH) has implemented an electronic case report
 # Security Considerations
 Aggregate data reports based on this ADX content specification do not contain identifiable person-centric information. Even so, the aggregate data reports are securely submitted using the QRPH-53 transaction (based on HTTPS). No other security considerations are identified.
 
-## Cross-Profile Considerations
+# Cross-Profile Considerations
 Not applicable. 
